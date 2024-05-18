@@ -5,6 +5,7 @@ import services from "../data/Education.json";
 const Education = () => {
     return (
         <div id="educationn">
+            <div className="verticalbar"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-11 offset-sm-1">

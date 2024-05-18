@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Bassumi Bakes",
+        "description": "A user-friendly online platform showcasing a variety of desserts, including cakes, cupcakes, and brownies, available for order.",
+        "technologies": "HTML, CSS, JAVASCRIPT, NODE, MONGODB",
+        "thumbnail": "Bassumibakes",
+        "codelink": "https://github.com/joangelm/BassumiBakes"
+    },
+    {
+        "id": 2,
+        "name": "Data Platform Project",
+        "description": "The team is taking over a MEVN stack web application project with goals to enhance the original app, add features, and expand documentation. New features include profile picture uploads, front-end user confirmation for irreversible actions, and improved data loading by consolidating multiple requests per page.",
+        "technologies": "VUE, JAVASCRIPT, TAILWIND, NODE, MONGODB",
+        "thumbnail": "Dataplatform",
+        "codelink": "https://github.com/joangelm/CIS-4339---Project"
+    },
+    {
+        "id": 3,
+        "name": "",
+        "description": "",
+        "technologies": [],
+        "thumbnail": "",
+        "codelink": ""
+    },
+    {
+        "id": 4,
+        "name": "",
+        "description": "",
+        "technologies": [],
+        "thumbnail": "",
+        "codelink": ""
+    }
+]

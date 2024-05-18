@@ -23,6 +23,7 @@ const Contact = () => {
 
     return (
         <div id="contact">
+            <div className="verticalbar"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 offset-sm-3">
