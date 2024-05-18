@@ -58,6 +58,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="signature">JoAngel Medina</div>
         </div>
     );
 };

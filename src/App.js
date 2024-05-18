@@ -1,6 +1,7 @@
 import Nav from "./common/Nav";
 import Home from "./pages/Home";
 import "./common/Commoncss.css";
+import About from "./pages/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -14,16 +15,10 @@ function App() {
     return (
         <div>
             <Nav />
-            {/* <Learn /> */}
-            {/* <Home/>
-      <About />
-      <Services/>s
-      <Education/>
-      <Work/>
-      <Contact/> */}
             <Routes>
                 <Route exact="true" path="/myportfolio" element={<Home />}></Route>
                 <Route path="/myportfolio" element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
             </Routes>
         </div>
     );

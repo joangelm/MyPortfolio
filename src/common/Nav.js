@@ -7,7 +7,7 @@ import Education from "../assets/img/education.png";
 import Projects from "../assets/img/portfolio.png";
 import Services from "../assets/img/services.png";
 import Work from "../assets/img/work.png";
-import Jsprojects from "../assets/img/jsprojects.png";
+import Jsprojects from "../assets/img/projects.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -88,9 +88,6 @@ const Nav = () => {
                         <Link to="/portfolio">
                             <li>Portfolio</li>
                         </Link>
-                        {/* <a href="https://drive.google.com/drive/folders/1TRlIYXPLPazrJb2lHQp5hmymqS4wj-Lx?usp=sharing" target="_blank">
-                            <li>Learn</li>
-                        </a> */}
                         <Link to="/contact">
                             <li>Contact</li>
                         </Link>
