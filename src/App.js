@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import "./common/Commoncss.css";
 import About from "./pages/About";
 import Education from "./pages/Education";
+import Contact from "./pages/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/myportfolio" element={<Home />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/education" element={<Education />}></Route>
+                <Route path="/contact" element={<Contact />}></Route>
             </Routes>
         </div>
     );

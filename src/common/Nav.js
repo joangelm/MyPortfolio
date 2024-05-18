@@ -6,7 +6,6 @@ import Contact from "../assets/img/contact.png";
 import Education from "../assets/img/education.png";
 import Projects from "../assets/img/portfolio.png";
 import Services from "../assets/img/services.png";
-import Work from "../assets/img/work.png";
 import Jsprojects from "../assets/img/projects.png";
 import { Link } from "react-router-dom";
 
@@ -30,11 +29,6 @@ const Nav = () => {
                     <Link to="/services">
                         <li data-aos="zoom-in">
                             <img src={Services} alt="services" />
-                        </li>
-                    </Link>
-                    <Link to="/work">
-                        <li data-aos="zoom-in">
-                            <img src={Work} alt="work" />
                         </li>
                     </Link>
                     <Link to="/education">
@@ -75,9 +69,6 @@ const Nav = () => {
                         </Link>
                         <Link to="/services">
                             <li>What I Do</li>
-                        </Link>
-                        <Link to="/work">
-                            <li>Work</li>
                         </Link>
                         <Link to="/education">
                             <li>Education</li>
