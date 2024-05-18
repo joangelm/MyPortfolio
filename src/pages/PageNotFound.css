@@ -1,0 +1,13 @@
+#pagenotfound {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#error-gif {
+    max-width: 25%;
+    max-height: 70vh;
+    margin-bottom: 20px;
+}

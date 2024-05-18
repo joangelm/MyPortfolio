@@ -1,7 +1,27 @@
 #navigation img {
     width: 25px;
     filter: grayscale(1) invert(1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
 }
+
+#navigation img:hover {
+    transform: scale(1.2);
+}
+
+#navigation img:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
 #navigation {
     height: 100vh;
     background: #000;
