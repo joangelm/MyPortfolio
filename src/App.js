@@ -18,8 +18,8 @@ function App() {
         <div>
             <Nav />
             <Routes>
-                <Route exact="true" path="/myportfolio" element={<Home />}></Route>
-                <Route path="/myportfolio" element={<Home />}></Route>
+                <Route exact="true" path="/home" element={<Home />}></Route>
+                <Route path="/home" element={<Home />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/education" element={<Education />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>

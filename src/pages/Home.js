@@ -11,6 +11,7 @@ import MailIcon from "../assets/img/socialicons/email.png";
 const Home = () => {
     return (
         <div id="home">
+            <div className="verticalbar"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-5">
@@ -26,7 +27,7 @@ const Home = () => {
                                 <a href="https://www.instagram.com/thisizjoey/" target="_blank" rel="noreferrer">
                                     <img src={Instagramicon} alt="instagram" data-aos="fade-right" data-aos-delay="1000" />
                                 </a>
-                                <a href="jjoangelmedina@gmail.com" target="_blank" rel="noreferrer">
+                                <a href="mailto:jjoangelmedina@gmail.com" target="_blank" rel="noreferrer">
                                     <img src={MailIcon} alt="email" data-aos="fade-right" data-aos-delay="1000" />
                                 </a>
                             </div>
@@ -37,28 +38,22 @@ const Home = () => {
                         <div className="rightcontent" data-aos="fade-right">
                             <h1>JoAngel Medina</h1>
                             <h2>Web Developer</h2>
-                            <br />
-                            <div className="row">
-                                <div className="col-sm-4 col-6">
-                                    <a href={Pdf} target="_blank" rel="noreferrer">
-                                        <button type="button" className="btn btn-primary">
-                                            Resume
-                                        </button>
-                                    </a>
-                                </div>
-                                <div className="col-sm-5 col-6">
-                                    <Link to="/contact">
-                                        <button type="button" className="btn btn-primary">
-                                            Hire Me
-                                        </button>
-                                    </Link>
-                                </div>
+                            <div className="button-row">
+                                <a href={Pdf} target="_blank" rel="noreferrer">
+                                    <button type="button" className="btn btn-primary btn-resume">
+                                        Resume
+                                    </button>
+                                </a>
+                                <Link to="/contact">
+                                    <button type="button" className="btn btn-primary btn-hire-me">
+                                        Hire Me
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="signature">JoAngel Medina</div>
         </div>
     );
 };

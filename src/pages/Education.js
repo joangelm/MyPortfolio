@@ -9,6 +9,9 @@ const Education = () => {
                 <div className="row">
                     <div className="col-sm-11 offset-sm-1">
                         <div className="tab-content">
+                            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                Education
+                            </h2>
                             <div className="tab-pane active" id="education">
                                 {services.map((item, i) => (
                                     <div className="educationblock" key={i}>
