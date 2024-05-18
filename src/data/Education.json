@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "coursename": "Bachelor of Science in Computer Information Systems",
+        "courseyear": "2024",
+        "institute": "University of Houston",
+        "gpa": "GPA: 3.94/4.0",
+        "rank": "Summa Cum Laude",
+        "honor": "Dean's List"
+    },
+    {
+        "id": 2,
+        "coursename": "High School Diploma",
+        "courseyear": "2019",
+        "institute": "Energy Institute High School",
+        "gpa": "GPA: 3.96/4.0",
+        "honor": "Top 15%"
+    }
+]
