@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Data Platform Project",
-        "description": "The team is taking over a MEVN stack web application project with goals to enhance the original app, add features, and expand documentation. New features include profile picture uploads, front-end user confirmation for irreversible actions, and improved data loading by consolidating multiple requests per page.",
+        "description": "Our team is taking over a MEVN stack web app to improve and expand it. Goals include adding profile picture uploads, user confirmation for irreversible actions, and optimizing data loading by reducing the number of requests per page.",
         "technologies": "VUE, JAVASCRIPT, TAILWIND, NODE, MONGODB",
         "thumbnail": "Dataplatform",
         "codelink": "https://github.com/joangelm/CIS-4339---Project"

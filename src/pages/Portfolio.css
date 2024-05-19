@@ -19,6 +19,9 @@
 
 .portfolio .project-card {
     flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 40px;
     padding: 20px;
     background-color: #fff;
@@ -77,6 +80,7 @@
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin-top: auto;
 }
 
 .portfolio .github img {
