@@ -18,7 +18,9 @@ const Portfolio = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-10 offset-sm-1">
-                        <h2>Projects</h2>
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            Projects
+                        </h2>
                         <br />
                         <div className="row">
                             {ProjectData.filter((project) => project.name).map((project, i) => (

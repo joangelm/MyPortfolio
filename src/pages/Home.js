@@ -40,12 +40,12 @@ const Home = () => {
                             <h2>Web Developer</h2>
                             <div className="button-row">
                                 <a href={Pdf} target="_blank" rel="noreferrer">
-                                    <button type="button" className="btn btn-primary btn-resume">
+                                    <button type="button" className="btn btn-resume">
                                         Resume
                                     </button>
                                 </a>
                                 <Link to="/contact">
-                                    <button type="button" className="btn btn-primary btn-hire-me">
+                                    <button type="button" className="btn btn-hire-me">
                                         Hire Me
                                     </button>
                                 </Link>

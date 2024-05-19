@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 offset-sm-3">
-                        <h2 data-aos="fade-up">Contact</h2>
+                        <h2 data-aos="fade-up">Contact Me</h2>
                         <br />
                         <form onSubmit={sendEmail} ref={formRef}>
                             {/* <form ref={formRef}> */}
