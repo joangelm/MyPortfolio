@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.c13f4f25.css",
-    "main.js": "/MyPortfolio/static/js/main.12f12c8f.js",
+    "main.js": "/MyPortfolio/static/js/main.54864cbc.js",
     "static/js/453.acca0757.chunk.js": "/MyPortfolio/static/js/453.acca0757.chunk.js",
     "static/media/Bassumibakes_cakes.png": "/MyPortfolio/static/media/Bassumibakes_cakes.0d9c2a246c4a4a289298.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/MyPortfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -28,11 +28,11 @@
     "static/media/404.gif": "/MyPortfolio/static/media/404.8de98dbf310f79c91313.gif",
     "index.html": "/MyPortfolio/index.html",
     "main.c13f4f25.css.map": "/MyPortfolio/static/css/main.c13f4f25.css.map",
-    "main.12f12c8f.js.map": "/MyPortfolio/static/js/main.12f12c8f.js.map",
+    "main.54864cbc.js.map": "/MyPortfolio/static/js/main.54864cbc.js.map",
     "453.acca0757.chunk.js.map": "/MyPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c13f4f25.css",
-    "static/js/main.12f12c8f.js"
+    "static/js/main.54864cbc.js"
   ]
 }
