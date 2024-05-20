@@ -14,7 +14,7 @@ const Nav = () => {
         <div>
             <div id="navigation">
                 <ul>
-                    <Link to="/home">
+                    <Link to="/">
                         <li data-aos="zoom-in">
                             <img src={Home} alt="home" />
                         </li>
@@ -44,12 +44,12 @@ const Nav = () => {
 
             <div id="navigation-mob">
                 <h1 data-aos="fade-in">
-                    <Link to="/home">JoAngel Medina</Link>
+                    <Link to="/">JoAngel Medina</Link>
                 </h1>
                 <i data-aos="fade-in" className={visible ? "fa fa-close" : "fa fa-bars"} onClick={() => setVisible(!visible)}></i>
                 {visible ? (
                     <ul className="list-unstyled" data-aos="slide-down" data-aos-duration="700" onClick={() => setVisible(!visible)}>
-                        <Link to="/home">
+                        <Link to="/">
                             <li>Home</li>
                         </Link>
                         <Link to="/about">
