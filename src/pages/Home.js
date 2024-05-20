@@ -37,15 +37,15 @@ const Home = () => {
                     <div className="col-sm-5 offset-sm-2">
                         <div className="rightcontent" data-aos="fade-right">
                             <h1>JoAngel Medina</h1>
-                            <h2>Web Developer</h2>
+                            <h2>Software Developer</h2>
                             <div className="button-row">
                                 <a href={Pdf} target="_blank" rel="noreferrer">
-                                    <button type="button" className="btn btn-resume">
+                                    <button type="button" className="btn btn-resume btn-light">
                                         Resume
                                     </button>
                                 </a>
                                 <Link to="/contact">
-                                    <button type="button" className="btn btn-hire-me">
+                                    <button type="button" className="btn btn-hire-me btn-dark">
                                         Hire Me
                                     </button>
                                 </Link>

@@ -8,7 +8,7 @@ const Education = () => {
             <div className="verticalbar"></div>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-11 offset-sm-1">
+                    <div className="">
                         <div className="tab-content">
                             <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 Education

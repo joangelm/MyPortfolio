@@ -17,17 +17,19 @@ function App() {
     }, []);
 
     return (
-        <div>
+        <div className="app-container">
             <Nav />
-            <Routes>
-                <Route exact="true" path="/home" element={<Home />}></Route>
-                <Route path="/home" element={<Home />}></Route>
-                <Route path="/about" element={<About />}></Route>
-                <Route path="/education" element={<Education />}></Route>
-                <Route path="/portfolio" element={<Portfolio />}></Route>
-                <Route path="/contact" element={<Contact />}></Route>
-                <Route path="*" element={<PageNotFound />}></Route>
-            </Routes>
+            <div className="app-content">
+                <Routes>
+                    <Route exact="true" path="/home" element={<Home />}></Route>
+                    <Route path="/home" element={<Home />}></Route>
+                    <Route path="/about" element={<About />}></Route>
+                    <Route path="/education" element={<Education />}></Route>
+                    <Route path="/portfolio" element={<Portfolio />}></Route>
+                    <Route path="/contact" element={<Contact />}></Route>
+                    <Route path="*" element={<PageNotFound />}></Route>
+                </Routes>
+            </div>
         </div>
     );
 }

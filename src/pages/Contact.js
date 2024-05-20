@@ -25,8 +25,8 @@ const Contact = () => {
         <div id="contact">
             <div className="verticalbar"></div>
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-6 offset-sm-3">
+                <div className="row d-flex justify-content-center ">
+                    <div className="col-sm-6 me-5 ms-n5">
                         <h2 data-aos="fade-up">Contact Me</h2>
                         <br />
                         <form onSubmit={sendEmail} ref={formRef}>
