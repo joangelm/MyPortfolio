@@ -31,5 +31,30 @@
             "Dataplatform_findService.png"
         ],
         "codelink": "https://github.com/joangelm/CIS-4339---Project"
+    },
+    {
+        "id": 3,
+        "name": "Interstellar Transportation",
+        "description": "This project manages a fleet of spaceships and their cargo using a RESTful API built with Flask and MySQL. Users can perform CRUD operations on spaceships, cargo, and captains, facilitating efficient space logistics management.",
+        "technologies": "EJS, JAVASCRIPT, NODE, PYTHON, FLASK, MYSQL",
+        "thumbnailContext": "cargo_project",
+        "thumbnails": ["Cargoproject_login.png", "Cargoproject_cargo.png", "Cargoproject_spaceship.png", "Cargoproject_captain.png"],
+        "codelink": "https://github.com/joangelm/CIS-3368---Final-Project"
+    },
+    {
+        "id": 4,
+        "name": "Inventory Management",
+        "description": "This project involves creating a program to manage an electronics store's inventory. It reads data from CSV files containing item details, prices, and service dates. The program then processes this data to generate reports, which facilitates inventory tasks.",
+        "technologies": "PYTHON, CSV",
+        "thumbnailContext": "inventory_management",
+        "thumbnails": [
+            "Inventorymanagement_main.png",
+            "Inventorymanagement_inventory.png",
+            "Inventorymanagement_device.png",
+            "Inventorymanagement_manufacturerList.png",
+            "Inventorymanagement_priceList.png",
+            "Inventorymanagement_serviceDates.png"
+        ],
+        "codelink": "https://github.com/joangelm/InventoryManagement"
     }
 ]
