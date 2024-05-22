@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.344cabc2.css",
-    "main.js": "/MyPortfolio/static/js/main.85d2ddc0.js",
+    "main.js": "/MyPortfolio/static/js/main.1a803204.js",
     "static/js/453.acca0757.chunk.js": "/MyPortfolio/static/js/453.acca0757.chunk.js",
     "static/media/Bassumibakes_cakes.png": "/MyPortfolio/static/media/Bassumibakes_cakes.0d9c2a246c4a4a289298.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/MyPortfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -14,7 +14,7 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/MyPortfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/Inventorymanagement_inventory.png": "/MyPortfolio/static/media/Inventorymanagement_inventory.781dd90faae327ca6dbb.png",
     "static/media/Inventorymanagement_main.png": "/MyPortfolio/static/media/Inventorymanagement_main.9cce26c855bd41be6f41.png",
-    "static/media/JoAngelMedina_Resume.pdf": "/MyPortfolio/static/media/JoAngelMedina_Resume.b47e69fc08da972dd082.pdf",
+    "static/media/JoAngelMedina_Resume.pdf": "/MyPortfolio/static/media/JoAngelMedina_Resume.23b0778814deef038d4d.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/MyPortfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/MyPortfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Bassumibakes_contact.png": "/MyPortfolio/static/media/Bassumibakes_contact.87d218e8a5b16c1c1609.png",
@@ -38,11 +38,11 @@
     "static/media/404.gif": "/MyPortfolio/static/media/404.8de98dbf310f79c91313.gif",
     "index.html": "/MyPortfolio/index.html",
     "main.344cabc2.css.map": "/MyPortfolio/static/css/main.344cabc2.css.map",
-    "main.85d2ddc0.js.map": "/MyPortfolio/static/js/main.85d2ddc0.js.map",
+    "main.1a803204.js.map": "/MyPortfolio/static/js/main.1a803204.js.map",
     "453.acca0757.chunk.js.map": "/MyPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.344cabc2.css",
-    "static/js/main.85d2ddc0.js"
+    "static/js/main.1a803204.js"
   ]
 }
