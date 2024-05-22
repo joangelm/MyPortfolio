@@ -38,12 +38,14 @@ const Project = (props) => {
             </div>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <p className="technologies">
-                <strong>Technologies:</strong> {project.technologies}
-            </p>
-            <a href={project.codelink} className="btn btn-default d-block github" target="_blank" rel="noreferrer">
-                Github Code <img src={githubImg} alt="GitHub" />
-            </a>
+            <div>
+                <p className="technologies">
+                    <strong>Technologies:</strong> {project.technologies}
+                </p>
+                <a href={project.codelink} className="btn btn-default d-block github" target="_blank" rel="noreferrer">
+                    Github Code <img src={githubImg} alt="GitHub" />
+                </a>
+            </div>
         </div>
     );
 };
